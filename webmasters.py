@@ -5,14 +5,14 @@ from apiclient.discovery import build
 from oauth2client.client import OAuth2WebServerFlow
 
 # Credentials
-CLIENT_ID = '436768257586-k4sdr6l7piteccrfel13n8a5senrb2nf.apps.googleusercontent.com'
-CLIENT_SECRET = 'Rt4rsP-xkeNl13cM9xU2A57N'
+CLIENT_ID = '436768257586-k4sdr6l7piteccrfel13n8aakfalkgalkmamvaklakmvalkmt.com'
+CLIENT_SECRET = 'Rt4aflkajlkfalkfalka'
 
 # Oauth scope
 OAUTH_SCOPE = 'https://www.googleapis.com/auth/webmasters.readonly'
 
 # Redirection for verification code
-REDIRECT_URI = 'https://www.odesk.com/'
+REDIRECT_URI = 'https://www.example.com/'
 
 # Autherising the request with our credentials
 flow = OAuth2WebServerFlow(CLIENT_ID, CLIENT_SECRET, OAUTH_SCOPE, REDIRECT_URI)
